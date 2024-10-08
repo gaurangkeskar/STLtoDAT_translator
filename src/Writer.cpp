@@ -14,3 +14,4 @@ void Write::write(vector<Triangle> triangles, string fileName)
 			<< triangle.p1.x << " " << triangle.p1.y << " " << triangle.p1.z << "\n" << endl << endl;
 	}
 }
+

@@ -47,3 +47,4 @@ vector<Triangle> Triangulation::createTriangle(const string& data)
 
 	return triangles;
 }
+

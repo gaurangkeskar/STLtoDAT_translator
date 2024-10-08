@@ -22,4 +22,3 @@ void Reader::read(string filename) {
         cout << "Unable to Open file";
     }
 }
-

@@ -13,3 +13,4 @@ public:
 	~Write();
 	void write(vector<Triangle> triangle, string fileName);
 };
+

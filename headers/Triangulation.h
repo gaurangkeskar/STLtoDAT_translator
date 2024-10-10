@@ -15,4 +15,3 @@ public:
 	void createUniqueMap(const string& data);
 	vector<Triangle> createTriangle(const string& data);
 };
-

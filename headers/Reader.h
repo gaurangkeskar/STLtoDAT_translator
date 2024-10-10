@@ -14,3 +14,4 @@ public:
 
 	void read(string f);
 };
+

@@ -35,9 +35,9 @@ vector<Triangle> Triangulation::createTriangle(const string& data)
 		countPoints.push_back(map[value]);
 
 		if (countPoints.size() == 9) {
-			Point p1(uniqueValues[countPoints[0]], uniqueValues[countPoints[1]], uniqueValues[countPoints[2]]);
-			Point p2(uniqueValues[countPoints[3]], uniqueValues[countPoints[4]], uniqueValues[countPoints[5]]);
-			Point p3(uniqueValues[countPoints[6]], uniqueValues[countPoints[7]], uniqueValues[countPoints[8]]);
+			Point p1(countPoints[0], countPoints[1],countPoints[2]);
+			Point p2(countPoints[3], countPoints[4], countPoints[5]);
+			Point p3(countPoints[6], countPoints[7], countPoints[8]);
 			Triangle t(p1, p2, p3);
 			triangles.push_back(t);
 			countPoints.clear();
@@ -47,3 +47,4 @@ vector<Triangle> Triangulation::createTriangle(const string& data)
 
 	return triangles;
 }
+

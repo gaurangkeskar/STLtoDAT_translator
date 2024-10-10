@@ -15,7 +15,7 @@ int main()
     std::vector<Triangle> triangles = triangulation.createTriangle(r.data);
 
     Write w;
-    w.write(triangles, "D:\\gaurangWorkspace\\STLtoDAT_translator\\output.dat");
+    w.write(triangles, "D:\\gaurangWorkspace\\STLtoDAT_translator\\output.dat", triangulation.uniqueValues);
 
     std::cout << "Triangles successfully written to output.dat\n";
 

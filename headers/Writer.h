@@ -11,6 +11,6 @@ class Write {
 public:
 	Write();
 	~Write();
-	void write(vector<Triangle> triangle, string fileName);
+	void write(vector<Triangle> triangle, string fileName, vector<double> uniqueValues);
 };
 

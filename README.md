@@ -1,1 +1,1 @@
-This tool is designed to convert 3D models from STL format to DAT format to plot them in GNUPlot.
+this is a project where i read from a STL file , convert it to a DAT file and plot it in GNUPlot.
